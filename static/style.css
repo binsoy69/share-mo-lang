@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+input[type="password"],
+input[type="file"],
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#progress-container {
+  margin-top: 1rem;
+}
+
+.file-list li {
+  background-color: #fff;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.file-list a {
+  display: block;
+  color: #007bff;
+  font-weight: 500;
+  word-break: break-word;
+  text-decoration: none;
+}
+
+.file-list a:hover {
+  text-decoration: underline;
+}
+.file-entry-vertical {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.file-entry-vertical a {
+  font-weight: 500;
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.file-entry-vertical a:hover {
+  text-decoration: underline;
+}
+
+.file-entry-vertical .file-size {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure File Share</title>
+</head>
+<body>
+  <h2>Enter Password to Access File Sharing</h2>
+  <form method="POST">
+    <input type="password" name="password" required>
+    <button type="submit">Enter</button>
+  </form>
+</body>
+</html>
